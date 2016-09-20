@@ -1,5 +1,5 @@
 
-package ec.edu.espe.math.geometry.quadrilaterals;
+package ec.edu.espe.math.geometry.shapes.quadrilaterals;
 
 /**
  *

@@ -1,10 +1,10 @@
-package ec.edu.espe.math.geometry;
+package ec.edu.espe.math.geometry.shapes;
 
 /**
  *
  * @author Cazaesclavas
  */
-public abstract class Shape {
+public interface ShapeInterface {
     public abstract Float perimeter();
     public abstract Float area();
 }

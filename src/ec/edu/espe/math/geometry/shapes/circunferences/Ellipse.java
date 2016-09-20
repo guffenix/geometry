@@ -1,11 +1,11 @@
-package ec.edu.espe.math.geometry.circunferences;
+package ec.edu.espe.math.geometry.shapes.circunferences;
 
 /**
  *
  * @author Cazaesclavas
  */
 public class Ellipse extends Circunference{
-    private Float radioTwo;
+    protected Float radioTwo;
 
     @Override
     public Float perimeter() {

@@ -1,8 +1,8 @@
 
 package ec.edu.espe.main;
 
-import ec.edu.espe.math.geometry.quadrilaterals.Rectangle;
-import ec.edu.espe.math.geometry.quadrilaterals.Square;
+import ec.edu.espe.math.geometry.shapes.quadrilaterals.Rectangle;
+import ec.edu.espe.math.geometry.shapes.quadrilaterals.Square;
 import ec.edu.espe.util.GeometricConstants;
 import ec.edu.espe.util.PrinterUtil;
 

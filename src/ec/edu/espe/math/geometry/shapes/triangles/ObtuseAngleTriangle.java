@@ -1,5 +1,5 @@
 
-package ec.edu.espe.math.geometry.triangles;
+package ec.edu.espe.math.geometry.shapes.triangles;
 
 /**
  *
