@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package util;
+package ec.edu.espe.math.geometry;
 
 /**
  *
- * @author Cazaesclavas
+ * @author Labs-DECC
  */
-public class GeometricConstants {
-    public static final String PERIMETER = "Perimeter";
-    public static final String AREA = "Area";
+public abstract class Shape {
+    public abstract Float perimeter();
+    public abstract Float area();
 }

@@ -1,5 +1,5 @@
 
-package math.geometry.circunferences;
+package ec.edu.espe.math.geometry.circunferences;
 
 /**
  *

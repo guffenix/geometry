@@ -1,4 +1,4 @@
-package math.geometry.quadrilaterals;
+package ec.edu.espe.math.geometry.quadrilaterals;
 
 /**
  *

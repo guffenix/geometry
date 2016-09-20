@@ -1,5 +1,5 @@
 
-package util;
+package ec.edu.espe.util;
 
 /**
  *

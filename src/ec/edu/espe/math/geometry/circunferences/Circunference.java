@@ -1,7 +1,7 @@
 
-package math.geometry.circunferences;
+package ec.edu.espe.math.geometry.circunferences;
 
-import math.geometry.Shape;
+import ec.edu.espe.math.geometry.Shape;
 
 /**
  *

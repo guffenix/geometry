@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package math.geometry.triangles;
+package ec.edu.espe.math.geometry.triangles;
 
-import math.geometry.Shape;
+import ec.edu.espe.math.geometry.Shape;
 
 /**
  *

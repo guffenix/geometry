@@ -1,4 +1,4 @@
-package math.geometry.triangles;
+package ec.edu.espe.math.geometry.triangles;
 
 /**
  *

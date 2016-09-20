@@ -1,9 +1,9 @@
 
-package ec.edu.espe;
+package ec.edu.espe.main;
 
-import math.geometry.quadrilaterals.Square;
-import util.GeometricConstants;
-import util.PrinterUtil;
+import ec.edu.espe.math.geometry.quadrilaterals.Square;
+import ec.edu.espe.util.GeometricConstants;
+import ec.edu.espe.util.PrinterUtil;
 
 /**
  *
