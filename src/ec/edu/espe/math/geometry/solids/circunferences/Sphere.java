@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ec.edu.espe.math.geometry.solids.circunferences;
 
 import ec.edu.espe.math.geometry.shapes.circunferences.Circunference;
@@ -10,11 +6,11 @@ import java.util.Objects;
 
 /**
  *
- * @author Labs-DECC
+ * @author Cazaesclavas
  */
 public class Sphere extends Circunference implements CircunferenceSolidInterface{
 
-    Float radio;
+    
 
     public Sphere(Float radio) {
         this.radio = radio;
