@@ -30,30 +30,5 @@ public class Sphere extends Circunference implements CircunferenceSolidInterface
     public Float volume() {
         return (float)( (4/3)*Math.PI * Math.pow(this.radio, 3));
     }
-
-    @Override
-    public int hashCode() {
-        int hash = 5;
-        hash = 29 * hash + Objects.hashCode(this.radio);
-        return hash;
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-        if (obj == null) {
-            return false;
-        }
-        if (getClass() != obj.getClass()) {
-            return false;
-        }
-        final Sphere other = (Sphere) obj;
-        if (!Objects.equals(this.radio, other.radio)) {
-            return false;
-        }
-        return true;
-    }
     
 }
