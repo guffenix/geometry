@@ -7,14 +7,19 @@ package ec.edu.espe.math.geometry.shapes.circunferences;
  */
 public class Circle extends Circunference{
 
+    public Circle(Float radio) {
+        this.radio = radio;
+    }
+
+    
     @Override
     public Float perimeter() {
-        return null;
+        return (float)(Math.PI * 2 * this.radio);
     }
 
     @Override
     public Float area() {
-        return null;
+        return (float)(Math.PI * Math.pow(this.radio, 2));
     }
     
 }
