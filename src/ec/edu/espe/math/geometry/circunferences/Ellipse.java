@@ -1,13 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ec.edu.espe.math.geometry.circunferences;
 
 /**
  *
- * @author Labs-DECC
+ * @author Cazaesclavas
  */
 public class Ellipse extends Circunference{
     private Float radioTwo;

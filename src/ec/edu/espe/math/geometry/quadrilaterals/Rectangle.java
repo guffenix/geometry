@@ -9,6 +9,12 @@ public class Rectangle extends Quadrilateral{
 
     Float side_a;
     Float side_b;
+
+    public Rectangle(Float side_a, Float side_b) {
+        this.side_a = side_a;
+        this.side_b = side_b;
+    }
+    
     @Override
     public Float perimeter() {
         return (side_a*2 + side_b*2);
