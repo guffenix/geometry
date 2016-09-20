@@ -1,5 +1,5 @@
 
-package math.geometry.Quadrilateral;
+package math.geometry.triangles;
 
 import java.util.Objects;
 
@@ -7,33 +7,32 @@ import java.util.Objects;
  *
  * @author Cazaesclavas
  */
-public class Square extends Quadrilateral{
+public class EquilateralTriangle extends Triangle{
 
-    private Float side;
-
+    private Float sideOne;
     
     @Override
     public Float perimeter() {
-        return this.side*4;
+        return 3 * this.sideOne;
     }
 
     @Override
     public Float area() {
-        return this.side*this.side;
+        return (float)(Math.sqrt(3/4)*Math.pow(this.sideOne, 2));
     }
 
-    public Float getSide() {
-        return side;
+    public Float getSideOne() {
+        return sideOne;
     }
 
-    public void setSide(Float side) {
-        this.side = side;
+    public void setSideOne(Float sideOne) {
+        this.sideOne = sideOne;
     }
 
     @Override
     public int hashCode() {
-        int hash = 3;
-        hash = 47 * hash + Objects.hashCode(this.side);
+        int hash = 7;
+        hash = 41 * hash + Objects.hashCode(this.sideOne);
         return hash;
     }
 
@@ -48,13 +47,11 @@ public class Square extends Quadrilateral{
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final Square other = (Square) obj;
-        if (!Objects.equals(this.side, other.side)) {
+        final EquilateralTriangle other = (EquilateralTriangle) obj;
+        if (!Objects.equals(this.sideOne, other.sideOne)) {
             return false;
         }
         return true;
     }
-    
-    
     
 }

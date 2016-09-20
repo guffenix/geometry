@@ -1,5 +1,5 @@
 
-package math.geometry.Quadrilateral;
+package math.geometry.quadrilaterals;
 
 import java.util.Objects;
 

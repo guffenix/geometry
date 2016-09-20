@@ -3,25 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package math.geometry.Triangle;
+package math.geometry.triangles;
+
+import math.geometry.Shape;
 
 /**
  *
  * @author Labs-DECC
  */
-public class Triangle extends Shape{
-private Float sideOne;
-private Float sideTwo;
-private Float sideThree;
-    @Override
-    public Float perimeter() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public Float area() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+public abstract class Triangle extends Shape{
+protected Float sideOne;
+protected Float sideTwo;
+protected Float sideThree;
 
     public Float getSideOne() {
         return sideOne;
@@ -46,5 +39,4 @@ private Float sideThree;
     public void setSideThree(Float sideThree) {
         this.sideThree = sideThree;
     }
-    
 }
