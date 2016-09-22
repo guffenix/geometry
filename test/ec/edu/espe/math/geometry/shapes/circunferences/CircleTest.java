@@ -1,8 +1,11 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package ec.edu.espe.math.geometry.shapes.circunferences;
 
 import ec.edu.espe.math.geometry.solids.cylinders.Cylinder;
-
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -12,7 +15,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Cazaesclavas
+ * @author incubus
  */
 public class CircleTest {
     
@@ -35,7 +38,9 @@ public class CircleTest {
     public void tearDown() {
     }
 
-
+    /**
+     * Test of perimeter method, of class Circle.
+     */
     @Test
     public void testPerimeter() {
         System.out.println("perimeter");
@@ -55,7 +60,8 @@ public class CircleTest {
         assertEquals(expResult, result);
 
     }
-    @Test
+    
+        @Test
     public void testVolumen() {
         System.out.println("Volumen");
         Cylinder instance = new Cylinder(2f,5f);
@@ -70,7 +76,7 @@ public class CircleTest {
         Cylinder instance = new Cylinder(2f,5f);
         Float expResult = 22f;//(float) (Math.PI * 25 * 2);
         Float result = instance.volume();
-        assertNotEquals(expResult, result);
+        assertNotSame(expResult, result);
 
     }
     
